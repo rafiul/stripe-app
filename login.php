@@ -71,7 +71,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6 col-lg-5">
-            <div class="card shadow-sm mt-5">
+            <div class="card mt-5 login-card">
                 <div class="card-body">
                     <h2 class="card-title text-center mb-4">Login</h2>
                     
