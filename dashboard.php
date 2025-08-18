@@ -18,10 +18,10 @@ $stripe_account = get_stripe_account($_SESSION['user_id']);
 require_once __DIR__ . '/includes/header.php';
 ?>
 
-<div class="container-fluid">
+<div class="inner-wrap">
     <div class="row">
         <div class="custom-col-20">
-            <div class="card mb-4">
+            <div class="card">
                 <div class="card-body sidebar">
                     <h5 class="card-title">Navigation</h5>
                     <?php include __DIR__ . '/includes/nav.php'; ?>
