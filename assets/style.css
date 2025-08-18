@@ -23,6 +23,11 @@ body {
 main {
   flex: 1;
 }
+.inner-wrap {
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh - 56px); /* Adjust for navbar height */
+}
 
 /* Card styles */
 .card {
