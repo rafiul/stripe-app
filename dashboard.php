@@ -34,6 +34,7 @@ require_once __DIR__ . '/includes/header.php';
                 <div class="card-body">
                     <h2 class="card-title">Welcome, <?php echo sanitize_output($_SESSION['username']); ?></h2>
                     <p class="card-text">This is your dashboard.</p>
+                    <hr>
                 </div>
             </div>
             

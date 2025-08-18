@@ -5,9 +5,11 @@
   --link-color: #dce3ed;
   --link-hover-color: #00bcd4;
   --font-family: "Arial", sans-serif;
+  --dark-txt-color: #0b0428;
 }
 body {
   overflow-x: hidden;
+  color: var(--dark-txt-color);
 }
 .nav-link {
   color: var(--link-color) !important;
@@ -26,6 +28,7 @@ main {
 .card {
   border: none;
   border-radius: 10px;
+  color: var(--dark-txt-color);
 }
 
 /* Form styles */
