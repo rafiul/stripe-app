@@ -197,7 +197,7 @@ body.login {
   margin-bottom: 15px;
   cursor: pointer;
 }
-.btn.primary {
+.login-btn.primary {
   background-color: var(--primary-color);
   color: #fff;
 }
