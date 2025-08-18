@@ -23,7 +23,8 @@ require_once __DIR__ . '/includes/header.php';
         <div class="custom-col-20 d-none d-sm-block">
             <div class="card">
                 <div class="card-body sidebar">
-                    <h5 class="text-white"><a class="navbar-brand" href="<?php echo BASE_URL; ?>/dashboard.php"><?php echo APP_NAME; ?></a></h5>
+                    <a class="navbar-brand" href="<?php echo BASE_URL; ?>/dashboard.php"><img src="<?php echo BASE_URL; ?>/assets/images/Stripe_logo-W.png" alt="Stripe Logo" class="logo">
+</a>
                     <?php include __DIR__ . '/includes/nav.php'; ?>
                 </div>
             </div>
