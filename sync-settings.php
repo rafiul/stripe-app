@@ -238,8 +238,13 @@ require_once __DIR__ . '/includes/header.php';
 
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
-            <?php include __DIR__ . '/includes/nav.php'; ?>
+        <div class="custom-col-20">
+            <div class="card">
+                <div class="card-body sidebar">
+                    <h5 class="text-white"><a class="navbar-brand" href="<?php echo BASE_URL; ?>/dashboard.php"><?php echo APP_NAME; ?></a></h5>
+                    <?php include __DIR__ . '/includes/nav.php'; ?>
+                </div>
+            </div>
         </div>
         
         <div class="col-md-9">
