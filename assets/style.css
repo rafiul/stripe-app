@@ -76,7 +76,9 @@ main {
   left: 0;
   overflow: hidden;
 }
-
+ul.nav.flex-column {
+  margin-top: 30px;
+}
 .d-flex.gap-2 {
   margin-top: 20px;
 }
