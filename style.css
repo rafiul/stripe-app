@@ -51,7 +51,12 @@ main {
 .min-h-100 {
   min-height: 100px;
 }
-
+.card-body.sidebar {
+  height: 100vh;
+  display: flex;
+  background: var(--primary-color);
+  flex-direction: column;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .card {
