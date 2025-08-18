@@ -47,14 +47,14 @@ require_once __DIR__ . '/includes/header.php';
                             
                             
                                 <div class="">
-                                    <h4 class="alert-heading">
+                                    <h5 class="alert-heading">
                                         Stripe Account Connected
                                         <?php if ($stripe_account['is_live']): ?>
                                             <span class="badge bg-danger">LIVE MODE</span>
                                         <?php else: ?>
                                             <span class="badge bg-success">TEST MODE</span>
                                         <?php endif; ?>
-                                    </h4>
+                                    </h5>
                                     <p>Your Stripe account is connected and ready to use.</p>
                                     <hr>
                                     <p class="mb-1"><strong>Account ID:</strong> <?php echo sanitize_output($stripe_account['stripe_user_id']); ?></p>
@@ -90,12 +90,12 @@ require_once __DIR__ . '/includes/header.php';
                             <h3 class="card-title">QuickBooks Integration</h3>
                             <?php if ($qbo_account): ?>
                                 <div class="">
-                                    <h4 class="alert-heading">
+                                    <h5 class="alert-heading">
                                         QuickBooks Account Connected
                                         <span class="badge bg-<?php echo QBO_ENVIRONMENT === 'sandbox' ? 'warning text-dark' : 'primary'; ?>">
                                             <?php echo QBO_ENVIRONMENT === 'sandbox' ? 'SANDBOX' : 'PRODUCTION'; ?>
                                         </span>
-                                    </h4>
+                                    </h5>
                                     <p>Your QuickBooks account is <?php echo $is_token_expired ? 'expired' : 'connected'; ?>.</p>
                                     <hr>
                                     <p class="mb-1"><strong>Realm ID:</strong> <?php echo sanitize_output($qbo_account['realm_id']); ?></p>
