@@ -76,6 +76,9 @@ main {
   left: 0;
   overflow: hidden;
 }
+.d-flex.gap-2 {
+  margin-top: 20px;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .card {
