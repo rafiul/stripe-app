@@ -190,7 +190,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <div class="login-left">
             <div class="login-header">
-                <img src="<?php echo BASE_URL; ?>/assets/Stripe_logo.png" alt="Stripe Logo" class="logo">
+                <img src="<?php echo BASE_URL; ?>/assets/images/Stripe_logo.png" alt="Stripe Logo" class="logo">
                 <h2>Welcome back</h2>
                 <p>Please enter your details</p>
             </div>
@@ -228,7 +228,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
 
         <div class="login-right">
-            <img src="<?php echo BASE_URL; ?>/assets/inte.webp" alt="Illustration">
+            <img src="<?php echo BASE_URL; ?>/assets/images/inte.webp" alt="Illustration">
         </div>
     </div>
 </body>
