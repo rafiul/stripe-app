@@ -96,10 +96,6 @@ require_once __DIR__ . '/includes/header.php';
                             <button type="submit" class="btn btn-primary">Login</button>
                         </div>
                     </form>
-                    
-                    <div class="mt-3 text-center">
-                        <p>Don't have an account? <a href="<?php echo BASE_URL; ?>/register.php">Register here</a></p>
-                    </div>
                 </div>
             </div>
         </div>
