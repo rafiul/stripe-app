@@ -1,6 +1,6 @@
 <?php
 // Application configuration
-define('APP_NAME', 'Stripe Integration for Quickbooks');
+define('APP_NAME', 'Stripe Integration for Quickbooks.');
 define('BASE_URL', 'http://localhost/stripe-app');
 define('ENCRYPTION_KEY', '98170b14d884c317784b5570975c8e45e19d6b63f6c94d0c08cf2bd2a9b3bbc9');
 
