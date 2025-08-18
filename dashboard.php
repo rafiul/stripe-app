@@ -71,7 +71,7 @@ require_once __DIR__ . '/includes/header.php';
                                 </div>
                             <?php else: ?>
                                 <div class="alert alert-warning">
-                                    <h4 class="alert-heading">No Stripe Account Connected</h4>
+                                    <h5 class="alert-heading">No Stripe Account Connected</h5>
                                     <p>You need to connect your Stripe account to use payment features.</p>
                                 </div>
                                 <a href="<?php echo BASE_URL; ?>/stripe-connect.php" class="btn btn-primary">Connect Stripe</a>
@@ -112,7 +112,7 @@ require_once __DIR__ . '/includes/header.php';
                                 </div>
                             <?php else: ?>
                                 <div class="alert alert-warning">
-                                    <h4 class="alert-heading">No QuickBooks Account Connected</h4>
+                                    <h5 class="alert-heading">No QuickBooks Account Connected</h5>
                                     <p>Connect your QuickBooks account to sync financial data.</p>
                                 </div>
                                 <a href="<?php echo BASE_URL; ?>/quickbooks-connect.php" class="btn btn-primary">Connect QuickBooks</a>
