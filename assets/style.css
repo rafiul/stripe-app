@@ -24,7 +24,7 @@ main {
   flex: 1;
 }
 .inner-wrap {
-  min-height: calc(100vh - 56px); /* Adjust for navbar height */
+  min-height: calc(100vh - 150px); /* Adjust for navbar height */
 }
 
 /* Card styles */
