@@ -52,7 +52,7 @@ if (ob_get_level() > 0) {
         </div>
     </nav>
 
-    <main class="container-fluid">
+    <main class="container-fluid px-0">
         <?php if (isset($_SESSION['error'])): ?>
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
                 <?php echo sanitize_output($_SESSION['error']); ?>

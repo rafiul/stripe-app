@@ -6,6 +6,9 @@
   --link-hover-color: #00bcd4;
   --font-family: "Arial", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .nav-link {
   color: var(--link-color) !important;
 }
@@ -23,10 +26,6 @@ main {
 .card {
   border: none;
   border-radius: 10px;
-}
-
-.card:hover {
-  /* transform: translateY(-5px); */
 }
 
 /* Form styles */
@@ -67,6 +66,15 @@ main {
   display: flex;
   background: var(--primary-color);
   flex-direction: column;
+  min-width: clamp(240px, 14.8vw, 320px);
+  max-width: clamp(240px, 14.8vw, 320px);
+  border-right: 0;
+  z-index: 1032;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
 }
 /* Responsive adjustments */
 @media (max-width: 768px) {
