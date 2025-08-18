@@ -2,8 +2,16 @@
 :root {
   --primary-color: #0b0428;
   --secondary-color: #0rgb(22, 4, 93);
+  --link-color: #dce3ed;
+  --link-hover-color: #00bcd4;
+  --font-family: "Arial", sans-serif;
 }
-
+.nav-link {
+  color: var(--link-color) !important;
+}
+.nav-link:hover {
+  color: var(--link-hover-color) !important;
+}
 main {
   flex: 1;
 }
