@@ -72,7 +72,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Login - TheCubeFactory</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             display: flex;
             height: 100vh;
@@ -90,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .login-left {
             flex-direction: column;
             padding: 40px;
-            max-width: 500px;
+            max-width: 600px;
         }
         .login-right {
             background-color: #32325d;
@@ -100,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             align-items: center;
         }
         .login-right img {
-            width: 70%;
+            width: 60%;
         }
         .login-header {
             margin-bottom: 20px;
@@ -218,12 +217,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
 
                 <button type="submit" class="btn primary">Sign in</button>
-
-                <button type="button" class="btn google">
-                    <img src="google-icon.png" alt="Google"> Sign in with Google
-                </button>
-
-                <p class="signup">Don’t have an account? <a href="signup.php">Sign up</a></p>
             </form>
         </div>
 
