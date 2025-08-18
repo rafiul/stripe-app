@@ -23,7 +23,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="custom-col-20">
             <div class="card">
                 <div class="card-body sidebar">
-                    <h5 class="card-title">Navigation</h5>
+                    <a class="navbar-brand" href="<?php echo BASE_URL; ?>/dashboard.php"><?php echo APP_NAME; ?></a>
                     <?php include __DIR__ . '/includes/nav.php'; ?>
                 </div>
             </div>
