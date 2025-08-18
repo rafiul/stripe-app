@@ -103,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <a href="#">Forgot password</a>
                 </div>
 
-                <button type="submit" class="btn primary">Sign in</button>
+                <button type="submit" class="login-btn primary">Sign in</button>
             </form>
         </div>
 

@@ -187,7 +187,7 @@ body.login {
   color: var(--primary-color);
   text-decoration: none;
 }
-.btn {
+.login-btn {
   width: 100%;
   padding: 12px;
   border: none;
