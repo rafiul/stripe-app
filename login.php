@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Login - Stripe Integration for QuickBooks</title>
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/style.css">
 </head>
-<body class+="login">
+<body class="login">
     <div class="login-container">
         <div class="login-left">
             <div class="login-header">
