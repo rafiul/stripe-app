@@ -20,7 +20,7 @@ require_once __DIR__ . '/includes/header.php';
 
 <div class="inner-wrap">
     <div class="row">
-        <div class="custom-col-20">
+        <div class="custom-col-20 d-none d-sm-block">
             <div class="card">
                 <div class="card-body sidebar">
                     <h5 class="text-white"><a class="navbar-brand" href="<?php echo BASE_URL; ?>/dashboard.php"><?php echo APP_NAME; ?></a></h5>
