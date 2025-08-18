@@ -47,7 +47,15 @@ require_once __DIR__ . '/includes/header.php';
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-5">
+        <div class="custom-col-20 d-none d-sm-block">
+            <div class="card">
+                <div class="card-body sidebar">
+                    <h5 class="text-white"><a class="navbar-brand" href="<?php echo BASE_URL; ?>/dashboard.php"><?php echo APP_NAME; ?></a></h5>
+                    <?php include __DIR__ . '/includes/nav.php'; ?>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 col-lg-9">
             <div class="card shadow-sm mt-5">
                 <div class="card-body">
                     <h2 class="card-title text-center mb-4">Disconnect Stripe</h2>
