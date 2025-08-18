@@ -12,6 +12,9 @@
 .nav-link:hover {
   color: var(--link-hover-color) !important;
 }
+.custom-col-20 {
+  width: 20% !important; /* Use !important to override Bootstrap's default */
+}
 main {
   flex: 1;
 }

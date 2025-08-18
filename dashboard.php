@@ -20,7 +20,7 @@ require_once __DIR__ . '/includes/header.php';
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-3">
+        <div class="custom-col-20">
             <div class="card mb-4">
                 <div class="card-body sidebar">
                     <h5 class="card-title">Navigation</h5>
