@@ -79,6 +79,18 @@ main {
 ul.nav.flex-column {
   margin-top: 30px;
 }
+.form-check-input {
+  background-color: #ffffff;
+  border: 2px solid #a4a3ab;
+}
+.form-check .form-check-input {
+  background-color: #ffffff;
+  border: 2px solid #a4a3ab;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: -1.8em;
+}
+
 .d-flex.gap-2 {
   margin-top: 20px;
 }

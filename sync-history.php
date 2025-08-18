@@ -48,7 +48,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="col-md-9">
             <div class="card mb-4">
                 <div class="card-body">
-                    <h2 class="card-title">Sync History</h2>
+                    <h2 class="card-title mb-4">Sync History</h2>
                     
                     <?php if (empty($history)): ?>
                         <div class="alert alert-info">No sync history found.</div>
