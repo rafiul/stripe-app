@@ -160,6 +160,7 @@ body.login {
 }
 .login-header p {
   color: #777;
+  margin-bottom: 10px;
 }
 .form-group {
   margin-bottom: 15px;

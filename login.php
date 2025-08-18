@@ -77,7 +77,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="login-left">
             <div class="login-header">
                 <img src="<?php echo BASE_URL; ?>/assets/images/Stripe_logo.png" alt="Stripe Logo" class="logo">
-                <h2>Welcome back</h2>
                 <p>Please enter your details</p>
             </div>
 
