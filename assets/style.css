@@ -62,7 +62,9 @@ main {
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+.form-select {
+  border: var(--bs-border-width) solid #a4a3ab;
+}
 /* Utility classes */
 .min-h-100 {
   min-height: 100px;
