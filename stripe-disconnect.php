@@ -55,7 +55,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-9 col-lg-9">
+        <div class="col-md-7 col-lg-7">
             <div class="card shadow-sm mt-5">
                 <div class="card-body">
                     <h2 class="card-title text-center mb-4">Disconnect Stripe</h2>
