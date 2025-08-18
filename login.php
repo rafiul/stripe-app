@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             max-width: 500px;
         }
         .login-right {
-            background-color: #9c7be5;
+            background-color: #32325d;
             color: #fff;
             display: flex;
             justify-content: center;
@@ -136,7 +136,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             font-size: 14px;
         }
         .form-options a {
-            color: #6b46c1;
+            color: #32325d;
             text-decoration: none;
         }
         .btn {
@@ -149,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             cursor: pointer;
         }
         .btn.primary {
-            background-color: #6b46c1;
+            background-color: #32325d;
             color: #fff;
         }
         .btn.google {
@@ -169,7 +169,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             font-size: 14px;
         }
         .signup a {
-            color: #6b46c1;
+            color: #32325d;
             text-decoration: none;
         }
         .alert {
@@ -228,7 +228,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
 
         <div class="login-right">
-            <img src="<?php echo BASE_URL; ?>/assets/images/inte.webp" alt="Illustration">
+            <img src="<?php echo BASE_URL; ?>/assets/images/login-ill.png" alt="Illustration">
         </div>
     </div>
 </body>
