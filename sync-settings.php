@@ -237,6 +237,7 @@ require_once __DIR__ . '/includes/header.php';
 ?>
 
 <div class="container">
+    <div class="inner-wrap">
     <div class="row">
         <div class="custom-col-20 d-none d-sm-block">
             <div class="card">
@@ -507,6 +508,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <?php
