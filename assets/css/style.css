@@ -1,6 +1,6 @@
 /* Main styles */
 :root {
-  --primary-color: #0b0428;
+  --primary-color: #32325d;
   --secondary-color: #0rgb(22, 4, 93);
   --link-color: #dce3ed;
   --link-hover-color: #00bcd4;
@@ -10,6 +10,7 @@
 body {
   overflow-x: hidden;
   color: var(--dark-txt-color);
+  font-family: var(--font-family);
 }
 .nav-link {
   color: var(--link-color) !important;
@@ -210,14 +211,6 @@ body {
 .btn.google img {
   width: 18px;
   margin-right: 10px;
-}
-.signup {
-  text-align: center;
-  font-size: 14px;
-}
-.signup a {
-  color: #32325d;
-  text-decoration: none;
 }
 .alert {
   background: #f8d7da;
