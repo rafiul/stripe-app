@@ -30,7 +30,7 @@ if (ob_get_level() > 0) {
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav d-block d-sm-none">
                     <li class="nav-item">
                         <a class="nav-link <?php echo $current_page === 'dashboard.php' ? 'active' : ''; ?>" 
                         href="<?php echo BASE_URL; ?>/dashboard.php">
