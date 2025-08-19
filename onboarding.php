@@ -754,7 +754,8 @@ if ($current_step === 'create_tables' && $_SERVER['REQUEST_METHOD'] === 'GET') {
         }
         .card {
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+            padding: 30px;
         }
         .loading-spinner {
             display: inline-block;

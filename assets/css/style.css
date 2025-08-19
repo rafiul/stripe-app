@@ -93,7 +93,7 @@ main {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px;
 }
-.login-card .form-control {
+.form-control {
   border: 1px solid #d1d1d1;
   border-radius: 3px;
 }
