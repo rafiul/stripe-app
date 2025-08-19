@@ -136,19 +136,19 @@ body.login {
   align-items: center;
 }
 .login-left {
-  flex-direction: column;
   padding: 40px;
-  max-width: 600px;
-}
-.login-right {
+  max-width: 700px;
   background-color: var(--primary-color);
   color: #fff;
+}
+.login-right {
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.login-right img {
+.login-left img {
   width: 70%;
 }
 .login-header {
