@@ -212,6 +212,9 @@ body.login {
   width: 180px;
   margin-bottom: 15px;
 }
+.card-title {
+  margin-bottom: 20px;
+}
 @media (max-width: 450px) {
   .login-left {
     display: none;
