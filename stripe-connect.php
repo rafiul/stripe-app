@@ -73,7 +73,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="col-md-6 col-lg-6">
             <div class="card shadow-sm mt-5">
                 <div class="card-body">
-                    <h2 class="card-title mb-4"><i class="bi bi-clock-history me-2"></i> Connect Stripe Account< <hr></h2>
+                    <h2 class="card-title mb-4"><i class="bi bi-credit-card me-2"></i> Connect Stripe Account <hr></h2>
                     
                     <?php if ($error): ?>
                         <div class="alert alert-danger"><?php echo sanitize_output($error); ?></div>
