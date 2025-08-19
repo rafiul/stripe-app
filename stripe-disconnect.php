@@ -68,7 +68,7 @@ require_once __DIR__ . '/includes/header.php';
                     <form method="POST" action="<?php echo BASE_URL; ?>/stripe-disconnect.php">
                         <input type="hidden" name="csrf_token" value="<?php echo generate_csrf_token(); ?>">
                         
-                        <div class="btn-group gap-1">
+                        <div class="btn-group gap-1 w-100">
                             <button type="submit" class="btn btn-danger">Disconnect Stripe</button>
                             <a href="<?php echo BASE_URL; ?>/dashboard.php" class="btn btn-danger">Cancel</a>
                         </div>

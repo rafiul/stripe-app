@@ -93,7 +93,7 @@ require_once __DIR__ . '/includes/header.php';
                             <label class="form-check-label" for="is_live">This is a live production key</label>
                         </div>
                         
-                        <div class="btn-group gap-1">
+                        <div class="btn-group gap-1 w-100">
                             <button type="submit" class="btn btn-primary">Connect Stripe Account</button>
                             <a href="<?php echo BASE_URL; ?>/dashboard.php" class="btn btn-danger">Cancel</a>
                         </div>
