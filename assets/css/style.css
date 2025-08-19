@@ -147,6 +147,11 @@ body.login {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 450px) {
+  .login-right {
+    display: none;
+  }
+}
 .login-right img {
   width: 70%;
 }
