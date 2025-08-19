@@ -118,12 +118,6 @@ ul.nav.flex-column {
 .d-flex.gap-2 {
   margin-top: 20px;
 }
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .card {
-    margin-top: 1rem;
-  }
-}
 
 body.login {
   margin: 0;
@@ -221,5 +215,14 @@ body.login {
 @media (max-width: 450px) {
   .login-left {
     display: none;
+  }
+  .login-right {
+    max-width: 100%;
+  }
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    margin-top: 1rem;
   }
 }
