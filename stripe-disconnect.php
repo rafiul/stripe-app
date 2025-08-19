@@ -58,8 +58,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="col-md-7 col-lg-7">
             <div class="card shadow-sm mt-5">
                 <div class="card-body">
-                    <h2 class="card-title text-center mb-4">Disconnect Stripe</h2>
-                    
+                    <h2 class="card-title mb-4"><i class="bi bi-clock-history me-2"></i> Disconnect Stripe <hr></h2>
                     <div class="alert alert-warning">
                         <p>Are you sure you want to disconnect your Stripe account?</p>
                         <p>This will remove your API key from our system.</p>

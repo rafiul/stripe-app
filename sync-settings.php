@@ -250,7 +250,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="col-md-9">
             <div class="card mb-4">
                 <div class="card-body">
-                    <h2 class="card-title mb-4"><i class="bi bi-clock-history me-2"></i> Sync Settings <hr></h2>
+                    <h2 class="card-title mb-4"><i class="bi bi-gear me-2"></i> Sync Settings <hr></h2>
                     
                     <?php if (isset($_SESSION['error'])): ?>
                         <div class="alert alert-danger"><?php echo sanitize_output($_SESSION['error']); unset($_SESSION['error']); ?></div>
