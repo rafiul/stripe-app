@@ -30,22 +30,7 @@ if (ob_get_level() > 0) {
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <?php if (isset($_SESSION['user_id'])): ?>
-                        <li class="nav-item">
-                            <span class="nav-link">Welcome, <?php echo sanitize_output($_SESSION['username']); ?></span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?php echo BASE_URL; ?>/logout.php"><i class="bi bi-box-arrow-right me-2"></i> Logout</a>
-                        </li>
-                    <?php else: ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?php echo BASE_URL; ?>/login.php">Login</a>
-                        </li>
-                    <?php endif; ?>
-                    </ul>
-                    
-                    <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link <?php echo $current_page === 'dashboard.php' ? 'active' : ''; ?>" 
                         href="<?php echo BASE_URL; ?>/dashboard.php">
@@ -90,12 +75,21 @@ if (ob_get_level() > 0) {
                             </a>
                         <?php endif; ?>
                     </li>
-                    <li class="nav-item mt-3">
-                        <a class="nav-link text-danger" href="<?php echo BASE_URL; ?>/logout.php">
-                            <i class="bi bi-box-arrow-right"></i>Logout
-                        </a>
-                    </li>
                 </ul>
+                <ul class="navbar-nav ms-auto">
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <li class="nav-item">
+                            <span class="nav-link">Welcome, <?php echo sanitize_output($_SESSION['username']); ?></span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?php echo BASE_URL; ?>/logout.php"><i class="bi bi-box-arrow-right me-2"></i> Logout</a>
+                        </li>
+                    <?php else: ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?php echo BASE_URL; ?>/login.php">Login</a>
+                        </li>
+                    <?php endif; ?>
+                    </ul>
             </div>
         </div>
     </nav>
