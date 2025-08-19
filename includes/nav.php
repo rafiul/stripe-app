@@ -7,6 +7,9 @@ if (!isset($_SESSION['user_id'])) {
 // Get current page for active state highlighting
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
+ <a class="navbar-brand" href="<?php echo BASE_URL; ?>/dashboard.php">
+    <img src="<?php echo BASE_URL; ?>/assets/images/Stripe_logo-W.png" alt="Stripe Logo" class="brand-logo">
+</a>
 <ul class="nav flex-column">
     <li class="nav-item">
         <a class="nav-link <?php echo $current_page === 'dashboard.php' ? 'active' : ''; ?>" 
