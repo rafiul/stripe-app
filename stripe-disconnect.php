@@ -70,7 +70,7 @@ require_once __DIR__ . '/includes/header.php';
                         
                         <div class="btn-group gap-1 w-100">
                             <button type="submit" class="btn btn-danger">Disconnect Stripe</button>
-                            <a href="<?php echo BASE_URL; ?>/dashboard.php" class="btn btn-danger">Cancel</a>
+                            <a href="<?php echo BASE_URL; ?>/dashboard.php" class="btn btn-primary">Cancel</a>
                         </div>
                     </form>
                 </div>
