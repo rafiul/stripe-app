@@ -108,11 +108,14 @@ ul.nav.flex-column {
   border: 2px solid #a4a3ab;
 }
 .form-check .form-check-input {
-  background-color: #ffffff;
   border: 2px solid #a4a3ab;
   width: 1.2rem;
   height: 1.2rem;
   margin-left: -1.8em;
+}
+.form-check-input:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .d-flex.gap-2 {
