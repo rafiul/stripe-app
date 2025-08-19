@@ -726,9 +726,13 @@ if ($current_step === 'create_tables' && $_SERVER['REQUEST_METHOD'] === 'GET') {
             color: white;
         }
         .step.completed .step-number {
-            background-color: #198754;
+            background-color: #47cf47;
             color: white;
         }
+    .text-success {
+        color: #47cf47 !important;
+    }
+
         .step-title {
             font-size: 0.9rem;
             color: #6c757d;
