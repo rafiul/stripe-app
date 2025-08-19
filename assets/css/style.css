@@ -24,6 +24,9 @@ body {
 main {
   flex: 1;
 }
+.card .card-body a {
+  color: var(--link-color);
+}
 .inner-wrap {
   min-height: calc(100vh - 150px); /* Adjust for navbar height */
 }
@@ -50,8 +53,8 @@ main {
 }
 
 .btn-primary:hover {
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: var(--link-hover-color);
+  border-color: var(--link-hover-color);
 }
 
 /* Alert styles */

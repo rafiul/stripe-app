@@ -722,7 +722,7 @@ if ($current_step === 'create_tables' && $_SERVER['REQUEST_METHOD'] === 'GET') {
             font-weight: bold;
         }
         .step.active .step-number {
-            background-color: #0d6efd;
+            background-color:var(--primary-color);
             color: white;
         }
         .step.completed .step-number {
@@ -734,7 +734,7 @@ if ($current_step === 'create_tables' && $_SERVER['REQUEST_METHOD'] === 'GET') {
             color: #6c757d;
         }
         .step.active .step-title {
-            color: #0d6efd;
+            color: var(--primary-color);
             font-weight: bold;
         }
         .step.completed .step-title {
