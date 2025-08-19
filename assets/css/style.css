@@ -27,7 +27,7 @@ main {
 .card .card-body.sidebar a {
   color: var(--link-color);
 }
-.card .accordion-body a {
+.card .card-body a:not(.btn) {
   color: var(--link-hover-color);
 }
 .inner-wrap {
