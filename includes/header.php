@@ -21,7 +21,7 @@ if (ob_get_level() > 0) {
     <title><?php echo APP_NAME; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/style.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/ccc/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
