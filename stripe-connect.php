@@ -71,7 +71,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-7 col-lg-7">
+        <div class="col-md-6 col-lg-6">
             <div class="card shadow-sm mt-5">
                 <div class="card-body">
                     <h2 class="card-title text-center mb-4">Connect Stripe Account</h2>
@@ -94,9 +94,9 @@ require_once __DIR__ . '/includes/header.php';
                             <label class="form-check-label" for="is_live">This is a live production key</label>
                         </div>
                         
-                        <div class="d-grid gap-2">
+                        <div class="btn-group gap-1">
                             <button type="submit" class="btn btn-primary">Connect Stripe Account</button>
-                            <a href="<?php echo BASE_URL; ?>/dashboard.php" class="btn btn-secondary">Cancel</a>
+                            <a href="<?php echo BASE_URL; ?>/dashboard.php" class="btn btn-danger">Cancel</a>
                         </div>
                     </form>
                     
