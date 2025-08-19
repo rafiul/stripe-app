@@ -45,8 +45,6 @@ require_once __DIR__ . '/includes/header.php';
                     <div class="card h-100 mb-4 alert alert-<?php echo $stripe_account['is_live'] ? 'danger' : 'success'; ?>">
                         <div class="card-body">
                             <h3 class="card-title">Stripe Integration</h3>
-                            
-                            
                                 <div class="">
                                     <h5 class="alert-heading">
                                         Stripe Account Connected

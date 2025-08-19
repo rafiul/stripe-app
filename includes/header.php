@@ -54,7 +54,7 @@ if (ob_get_level() > 0) {
 
     <main class="container-fluid px-0">
         <?php if (isset($_SESSION['error'])): ?>
-            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <div class="alert alert-danger alert-dismissible text-center fade show" role="alert">
                 <?php echo sanitize_output($_SESSION['error']); ?>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
@@ -62,7 +62,7 @@ if (ob_get_level() > 0) {
         <?php endif; ?>
         
         <?php if (isset($_SESSION['success'])): ?>
-            <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <div class="alert alert-success alert-dismissible text-center fade show" role="alert">
                 <?php echo sanitize_output($_SESSION['success']); ?>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
