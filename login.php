@@ -75,6 +75,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body class="login">
     <div class="login-container">
         <div class="login-left">
+            <img src="<?php echo BASE_URL; ?>/assets/images/login-ill.png" alt="Illustration">
+        </div>
+        <div class="login-right">
             <div class="login-header">
                 <img src="<?php echo BASE_URL; ?>/assets/images/Stripe_logo.png" alt="Stripe Logo" class="logo">
                 <p>Please enter your details</p>
@@ -106,9 +109,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </form>
         </div>
 
-        <div class="login-right">
-            <img src="<?php echo BASE_URL; ?>/assets/images/login-ill.png" alt="Illustration">
-        </div>
     </div>
 </body>
 </html>
