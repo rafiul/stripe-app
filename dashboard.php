@@ -94,29 +94,28 @@ require_once __DIR__ . '/includes/header.php';
                   </button>
                 </form>
               </div>
-            </div>
-          </div>
-        </div>
-        <?php else: ?>
-        <div class="col-md-6">
-          <div class="card h-100 mb-4 alert alert-danger">
-            <div class="card-body">
-              <div class="alert alert-warning">
-                <h5 class="alert-heading">No Stripe Account Connected</h5>
-                <p>
-                  You need to connect your Stripe account to use payment
-                  features.
-                </p>
+              <?php else: ?>
+              <div class="card h-100 mb-4 alert alert-danger">
+                <div class="card-body">
+                  <div class="alert alert-warning">
+                    <h5 class="alert-heading">No Stripe Account Connected</h5>
+                    <p>
+                      You need to connect your Stripe account to use payment
+                      features.
+                    </p>
+                  </div>
+                  <a
+                    href="<?php echo BASE_URL; ?>/stripe-connect.php"
+                    class="btn btn-primary"
+                    >Connect Stripe</a
+                  >
+                </div>
               </div>
-              <a
-                href="<?php echo BASE_URL; ?>/stripe-connect.php"
-                class="btn btn-primary"
-                >Connect Stripe</a
-              >
+              <?php endif; ?>
             </div>
           </div>
         </div>
-        <?php endif; ?>
+
         <div class="col-md-6 mb-2">
           <?php 
                     $qbo_account = get_quickbooks_account($_SESSION['user_id']);
@@ -175,7 +174,6 @@ require_once __DIR__ . '/includes/header.php';
                 <?php endif; ?>
               </div>
               <?php else: ?>
-            <div class="col-md-6">
               <div class="alert alert-warning">
                 <h5 class="alert-heading">No QuickBooks Account Connected</h5>
                 <p>Connect your QuickBooks account to sync financial data.</p>
@@ -185,12 +183,12 @@ require_once __DIR__ . '/includes/header.php';
                 class="btn btn-primary"
                 >Connect QuickBooks</a
               >
-              </div>
               <?php endif; ?>
             </div>
           </div>
         </div>
       </div>
+      <!--end row-->
     </div>
   </div>
 </div>
