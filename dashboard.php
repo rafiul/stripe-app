@@ -21,7 +21,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="container-fluid py-4">
     <div class="row">
         <!-- Sidebar -->
-        <div class="col-md-3 mb-3">
+        <div class="custom-col-20 d-none d-sm-block mb-3">
             <div class="card h-100">
                 <div class="card-body sidebar">
                     <?php include __DIR__ . '/includes/nav.php'; ?>
