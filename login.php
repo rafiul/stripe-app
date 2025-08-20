@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="alert"><?php echo sanitize_output($error); ?></div>
             <?php endif; ?>
 
-            <form method="POST" action="<?php echo BASE_URL; ?>/login.php">
+            <form method="POST" action="<?php echo BASE_URL; ?>/login.php" class="login-form">
                 <input type="hidden" name="csrf_token" value="<?php echo generate_csrf_token(); ?>">
 
                 <div class="form-group">

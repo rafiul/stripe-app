@@ -126,6 +126,11 @@ body.login {
   display: flex;
   height: 100vh;
 }
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
 .login-container {
   display: flex;
   width: 100%;
