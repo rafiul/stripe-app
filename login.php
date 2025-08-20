@@ -99,6 +99,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <label>Password</label>
                     <input type="password" name="password" placeholder="Enter your password" required>
                 </div>
+                <div class="form-options">
+                    <label><input type="checkbox" name="remember"> Remember for 7 days</label>
+                </div>
                 <button type="submit" class="login-btn primary">Sign in</button>
             </form>
         </div>
