@@ -118,10 +118,10 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="col-md-6 mb-2">
           <?php 
-                    $qbo_account = get_quickbooks_account($_SESSION['user_id']);
-                    $is_token_expired = $qbo_account && (strtotime($qbo_account['access_token_expires_at']) < $now);
-                    ?>
-          <div
+            $qbo_account = get_quickbooks_account($_SESSION['user_id']);
+            $is_token_expired = $qbo_account && (strtotime($qbo_account['access_token_expires_at']) < $now);
+            ?>
+    <div
             class="card h-100 mb-4 alert alert-<?php echo $is_token_expired ? 'danger' : 'success'; ?>"
           >
             <div class="card-body">
@@ -174,7 +174,7 @@ require_once __DIR__ . '/includes/header.php';
                 <?php endif; ?>
               </div>
               <?php else: ?>
-              div
+              <div
             class="card h-100 mb-4 alert alert-<?php echo $is_token_expired ? 'danger' : 'success'; ?>"
           >
             <div class="card-body">
