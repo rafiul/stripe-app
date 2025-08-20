@@ -37,8 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Store session in database
                 $stmt = $db->prepare("INSERT INTO sessions (user_id, session_token, expires_at) VALUES (?, ?, ?)");
                 $stmt->bind_param("iss", $user['id'], $session_token, $expires_at);
-
-                if (isset($_POST['remember']) && $stmt->execute()) {
+                
+                if ($stmt->execute()) {
                     // Set session cookie and variables
                     setcookie('session_token', $session_token, [
                         'expires' => time() + (86400 * SESSION_EXPIRE_DAYS),
@@ -48,11 +48,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         'httponly' => true,
                         'samesite' => 'Strict'
                     ]);
-                    
 
                     $_SESSION['user_id'] = $user['id'];
                     $_SESSION['username'] = $user['username'];
-
                     header("Location: " . BASE_URL . "/dashboard.php");
                     exit();
                 } else {
