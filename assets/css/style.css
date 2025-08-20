@@ -193,6 +193,10 @@ body.login {
   margin-bottom: 20px;
   font-size: 14px;
 }
+.form-options input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+}
 .form-options a {
   color: var(--primary-color);
   text-decoration: none;
@@ -221,12 +225,18 @@ body.login {
 .card-title {
   margin-bottom: 20px;
 }
+.form-options label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 450px) {
   .login-left {
     display: none;
   }
   .login-right {
     max-width: 100%;
+    padding: 30px;
   }
 }
 /* Responsive adjustments */
