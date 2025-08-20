@@ -39,7 +39,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
             
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mb-2">
                     <?php if ($stripe_account): ?>
                     <div class="card h-100 mb-4 alert alert-<?php echo $stripe_account['is_live'] ? 'danger' : 'success'; ?>">
                         <div class="card-body">
@@ -78,7 +78,7 @@ require_once __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 
-                <div class="col-md-6">
+                <div class="col-md-6 mb-2">
                     <?php 
                     $qbo_account = get_quickbooks_account($_SESSION['user_id']);
                     $is_token_expired = $qbo_account && (strtotime($qbo_account['access_token_expires_at']) < $now);
