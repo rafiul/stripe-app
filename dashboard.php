@@ -175,6 +175,7 @@ require_once __DIR__ . '/includes/header.php';
                 <?php endif; ?>
               </div>
               <?php else: ?>
+            <div class="col-md-6">
               <div class="alert alert-warning">
                 <h5 class="alert-heading">No QuickBooks Account Connected</h5>
                 <p>Connect your QuickBooks account to sync financial data.</p>
@@ -184,6 +185,7 @@ require_once __DIR__ . '/includes/header.php';
                 class="btn btn-primary"
                 >Connect QuickBooks</a
               >
+              </div>
               <?php endif; ?>
             </div>
           </div>
