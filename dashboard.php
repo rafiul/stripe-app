@@ -31,10 +31,12 @@ require_once __DIR__ . '/includes/header.php';
         <div class="col-md-9">
             <div class="card mb-4">
                 <div class="card-body">
-                    <h2 class="card-title mb-4"><i class="bi bi-speedometer2 me-2"></i> Dashboard </h2>
-                    <p class="card-title">Welcome, <?php echo sanitize_output($_SESSION['username']); ?></p>
+                    <h2 class="card-title mb-4">
+                        <i class="bi bi-speedometer2 me-2"></i> 
+                        Dashboard 
+                    </h2>
                     <hr>
-        
+                    <h5 class="card-title">Welcome, admin</h5>
                 </div>
             </div>
             
