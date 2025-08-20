@@ -48,10 +48,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         'httponly' => true,
                         'samesite' => 'Strict'
                     ]);
-                    
+
                     $_SESSION['user_id'] = $user['id'];
                     $_SESSION['username'] = $user['username'];
                     
+                     if (isset($_POST['remember'])) {
+                        $token = bin2hex(random_bytes(32)); // Generate a secure token
+                        // Store $token (or its hash) in database for $user_id
+                        setcookie('remember_me_token', $token, time() + (86400 * 7), "/", "", false, true); // 30 days
+                    }
                     header("Location: " . BASE_URL . "/dashboard.php");
                     exit();
                 } else {
@@ -100,7 +105,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <input type="password" name="password" placeholder="Enter your password" required>
                 </div>
                 <div class="form-options">
-                    <label><input type="checkbox" name="remember"> Remember for 7 days</label>
+                    <label><input type="checkbox" name="remember" id="remember"> Remember for 7 days</label>
                 </div>
                 <button type="submit" class="login-btn primary">Sign in</button>
             </form>
