@@ -69,6 +69,12 @@ require_once __DIR__ . '/includes/header.php';
                                         <button type="submit" class="btn btn-primary">Verify Connection</button>
                                     </form>
                                 </div>
+                            <?php else: ?>
+                                <div class="alert alert-warning">
+                                    <h5 class="alert-heading">No Stripe Account Connected</h5>
+                                    <p>You need to connect your Stripe account to use payment features.</p>
+                                </div>
+                                <a href="<?php echo BASE_URL; ?>/stripe-connect.php" class="btn btn-primary">Connect Stripe</a>
                             <?php endif; ?>
                         </div>
                     </div>
@@ -104,6 +110,13 @@ require_once __DIR__ . '/includes/header.php';
                                         <a href="<?php echo get_qbo_auth_url(); ?>" class="btn btn-primary">Reconnect</a>
                                     <?php endif; ?>
                                 </div>
+                            <?php else: ?>
+                                <div class="alert alert-warning">
+                                    <h5 class="alert-heading">No QuickBooks Account Connected</h5>
+                                    <p>Connect your QuickBooks account to sync financial data.</p>
+                                </div>
+                                <a href="<?php echo BASE_URL; ?>/quickbooks-connect.php" class="btn btn-primary">Connect QuickBooks</a>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
