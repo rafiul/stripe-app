@@ -174,6 +174,10 @@ require_once __DIR__ . '/includes/header.php';
                 <?php endif; ?>
               </div>
               <?php else: ?>
+              div
+            class="card h-100 mb-4 alert alert-<?php echo $is_token_expired ? 'danger' : 'success'; ?>"
+          >
+            <div class="card-body">
               <div class="alert alert-warning">
                 <h5 class="alert-heading">No QuickBooks Account Connected</h5>
                 <p>Connect your QuickBooks account to sync financial data.</p>
@@ -183,6 +187,8 @@ require_once __DIR__ . '/includes/header.php';
                 class="btn btn-primary"
                 >Connect QuickBooks</a
               >
+              </div>
+          </div>
               <?php endif; ?>
             </div>
           </div>
