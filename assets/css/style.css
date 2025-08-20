@@ -231,6 +231,9 @@ body.login {
   align-items: center;
   justify-content: center;
 }
+.integrations-row .card {
+  border: 1px solid #ddd;
+}
 @media (max-width: 450px) {
   .login-left {
     display: none;

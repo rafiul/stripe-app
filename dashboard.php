@@ -43,7 +43,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Integrations Row -->
-            <div class="row">
+            <div class="row integrations-row">
                 <!-- Stripe Integration -->
                 <div class="col-md-6 mb-3">
                     <?php if ($stripe_account): ?>
