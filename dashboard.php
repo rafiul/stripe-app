@@ -99,9 +99,7 @@ require_once __DIR__ . '/includes/header.php';
         </div>
         <?php else: ?>
         <div class="col-md-6">
-          <div
-            class="card h-100 mb-4 alert alert-<?php echo $stripe_account['is_live'] ? 'danger' : 'success'; ?>"
-          >
+          <div class="card h-100 mb-4 alert alert-danger">
             <div class="card-body">
               <div class="alert alert-warning">
                 <h5 class="alert-heading">No Stripe Account Connected</h5>
