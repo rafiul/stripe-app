@@ -233,6 +233,7 @@ body.login {
 }
 .integrations-row .card {
   border: 1px solid #ddd;
+  padding: 15px;
 }
 @media (max-width: 450px) {
   .login-left {
