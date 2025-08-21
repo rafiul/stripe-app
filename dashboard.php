@@ -53,6 +53,7 @@ require_once __DIR__ . '/includes/header.php';
                                     <img src="<?php echo BASE_URL; ?>/assets/images/stripe.png" width="30px">
                                     Stripe Integration
                                 </h3>
+                                <hr>
                                 <h5 class="alert-heading">
                                     Stripe Account Connected
                                     <?php if ($stripe_account['is_live']): ?>
@@ -83,6 +84,7 @@ require_once __DIR__ . '/includes/header.php';
                                     <img src="<?php echo BASE_URL; ?>/assets/images/stripe.png" width="30px">
                                     Stripe Integration
                                 </h3>
+                                <hr>
                                 <div class="alert alert-warning">
                                     <h5>No Stripe Account Connected</h5>
                                     <p>You need to connect your Stripe account to use payment features.</p>
@@ -106,6 +108,7 @@ require_once __DIR__ . '/includes/header.php';
                                     <img src="<?php echo BASE_URL; ?>/assets/images/quickbooks-logo.svg" width="30px"> 
                                     QuickBooks Integration
                                 </h3>
+                                <hr>
                                 <h5 class="alert-heading">
                                     QuickBooks Account Connected
                                     <span class="badge bg-<?php echo QBO_ENVIRONMENT === 'sandbox' ? 'warning text-dark' : 'primary'; ?>">
@@ -134,6 +137,7 @@ require_once __DIR__ . '/includes/header.php';
                                     <img src="<?php echo BASE_URL; ?>/assets/images/quickbooks-logo.svg" width="30px"> 
                                     QuickBooks Integration
                                 </h3>
+                                <hr>
                                 <div class="alert alert-warning">
                                     <h5>No QuickBooks Account Connected</h5>
                                     <p>Connect your QuickBooks account to sync financial data.</p>
