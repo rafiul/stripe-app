@@ -49,7 +49,7 @@ require_once __DIR__ . '/includes/header.php';
                     <?php if ($stripe_account): ?>
                         <div class="card h-100 border-<?php echo $stripe_account['is_live'] ? 'danger' : 'success'; ?>">
                             <div class="card-body">
-                                <h3 class="card-title">Stripe Integration</h3>
+                                <h3 class="card-title"><img src"/assets/images/stripe.png" width="100px">Stripe Integration</h3>
                                 <h5 class="alert-heading">
                                     Stripe Account Connected
                                     <?php if ($stripe_account['is_live']): ?>
