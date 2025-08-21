@@ -50,7 +50,7 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="card h-100 border-<?php echo $stripe_account['is_live'] ? 'danger' : 'success'; ?>">
                             <div class="card-body">
                                 <h3 class="card-title">
-                                    <img src="/assets/images/stripe.png" width="100px">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/stripe.png" width="100px">
                                     Stripe Integration
                                 </h3>
                                 <h5 class="alert-heading">
